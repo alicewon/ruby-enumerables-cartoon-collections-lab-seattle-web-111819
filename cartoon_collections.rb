@@ -42,7 +42,7 @@ def find_the_cheese(array_of_snack_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
   array_of_snack_strings.find{ |snack| cheese_types.include?(snack)}
   #else return nil
-  end
+
 
 
 end
