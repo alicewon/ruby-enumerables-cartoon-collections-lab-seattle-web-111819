@@ -30,15 +30,17 @@ def long_planeteer_calls(array_of_calls)# code an argument here
   # Your code here
   # 1. check each element in array's size
   # 2. if any of the elements ahve a size > 4, return true
+# 
+#   answer = false
+#   .any?[{ |call| }]
+# if array_of_calls[i].size > 4
+#   answer =  true
+# end
 
-  answer = false
-  .any?[{ |call| }]
-if array_of_calls[i].size > 4
-  answer =  true
+
+
+array_of_calls.any?{|word| word.size > 4}
 end
-
-end
-
 
 
 def find_the_cheese# code an argument here
