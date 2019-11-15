@@ -35,7 +35,13 @@ array_of_calls.any?{|word| word.size > 4}
 end
 
 
-def find_the_cheese# code an argument here
+def find_the_cheese(array_of_snack_strings)
+#should look through these strings to find and return the first string that is a type of cheese
+  # code an argument here
   # the array below is here to help
+
+  array_of_snack_strings.find{ |snack| snack == cheese_types}
+
+
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
